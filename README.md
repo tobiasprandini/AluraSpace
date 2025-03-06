@@ -1,99 +1,30 @@
-# Alura Space
+# Alura Space  
 
-Alura Space é um projeto web desenvolvido em Django que permite aos usuários compartilharem e explorarem imagens relacionadas ao espaço.
+Alura Space é um projeto web desenvolvido em Django que permite aos usuários compartilharem e explorarem imagens relacionadas ao espaço.  
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Sobre o Projeto  
 
-- Python 3.x
-- Django 5.1.6
-- SQLite3
-- HTML/CSS
-- Python-dotenv para gerenciamento de variáveis de ambiente
+Este projeto foi desenvolvido durante o curso de Django da Alura, onde aprendemos a criar uma aplicação web completa para compartilhamento de imagens espaciais.  
 
-## 📋 Pré-requisitos
+## 🛠️ Tecnologias Utilizadas  
 
-- Python 3.x instalado
-- pip (gerenciador de pacotes Python)
+- Python 3.x  
+- Django 5.1.6  
+- SQLite3  
+- HTML/CSS  
+- Python-dotenv para gerenciamento de variáveis de ambiente  
 
-## 🔧 Instalação
+## 🌟 Funcionalidades  
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/alura-space.git
-cd alura-space
-```
+- **Cadastro de usuários**: Criação de conta com e-mail e senha.  
+- **Autenticação**: Login seguro para acessar e gerenciar conteúdos.  
+- **Recuperação de senha**: Opção para redefinir senha via e-mail.  
+- **Publicação de imagens**: Upload de imagens espaciais com título e descrição.  
+- **Edição e exclusão de posts**: Usuários podem modificar ou deletar suas próprias postagens.  
+- **Exploração de imagens**: Visualização de todas as imagens publicadas na plataforma.  
 
-2. Crie um ambiente virtual:
-```bash
-python -m venv venv
-```
+Esse projeto serve como um ótimo exemplo prático para aprender Django e entender como construir aplicações web robustas. 🚀  
 
-3. Ative o ambiente virtual:
-- Windows:
-```bash
-venv\Scripts\activate
-```
-- Linux/Mac:
-```bash
-source venv/bin/activate
-```
+---  
 
-4. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
-
-5. Configure as variáveis de ambiente:
-- Crie um arquivo `.env` na raiz do projeto
-- Adicione as seguintes variáveis:
-```
-SECRET_KEY=sua-chave-secreta
-DEBUG=True
-```
-
-6. Execute as migrações:
-```bash
-python manage.py migrate
-```
-
-7. Inicie o servidor de desenvolvimento:
-```bash
-python manage.py runserver
-```
-
-## 🌐 Acesso
-
-Após iniciar o servidor, acesse o projeto em:
-```
-http://localhost:8000
-```
-
-## 📁 Estrutura do Projeto
-
-```
-alura-space/
-├── apps/           # Aplicações Django
-├── media/          # Arquivos de mídia enviados pelos usuários
-├── static/         # Arquivos estáticos (CSS, JS, imagens)
-├── templates/      # Templates HTML
-├── setup/          # Configurações adicionais
-├── manage.py       # Script de gerenciamento do Django
-├── requirements.txt # Dependências do projeto
-└── .env            # Variáveis de ambiente
-```
-
-## 🤝 Contribuindo
-
-1. Faça um Fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-## 👥 Autores
-
-- Seu Nome - *Trabalho Inicial* - [seu-usuario](https://github.com/seu-usuario) 
+💡 Caso queira incluir mais detalhes, como a estrutura do banco de dados ou como rodar o projeto localmente, fique à vontade para contribuir! 😊
